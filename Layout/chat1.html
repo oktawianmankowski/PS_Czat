@@ -1,33 +1,63 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Chat - Projekt</title>
-<link type="text/css" rel="stylesheet" href="style.css" />
+	<title>Chat - Projekt</title>
+	<link type="text/css" rel="stylesheet" href="style.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap.min.css" />
 </head>
 
-
-
+<body>
 <div id="wrapper">
-    <div id="menu">
-        <p class="welcome"><h1>Welcome</h1><b></b></p>
+    
+     <p class="welcome"><h1>ChatBox-2018</h1><b></b></p>	
 		
-	<div id="logoutButton">Logout</div>       
-        <div style="clear:both"></div>
-    </div>
-     
-    <div id="chatbox"></div>
-	<br>
-	<div id="activities">
-		<div id="fontChange"><h4>Fonts</h4></div>
-		 <div style="clear:both"></div>
-		<div id="sendFile"><h4>Send File</h4></div>
+	 <div id="activities">
+		<div class="row">
+			<div class=" col-sm-3 col-md-3 col-lg-3 col-xl-3 col-centered ">
+				<div class="Button">Logout</div>    		
+			</div>			
+		</div>
 	</div>
-	<br><br>
-     
-    <form name="message" action="">
-        <input name="usermsg" type="text" id="usermsg" size="63" />
-        <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
-    </form>
+	
+	<br>
+	
+    <div class="row">
+		<div class=" col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+			<div id="chatbox"><h6>Put some text here please.</h6></div>
+		</div>
+	</div>
+	<br>
+	
+	
+	<div class="row ">	
+	
+			
+			<div id="activities">		
+				<div class=" col-sm-4 col-md-4 col-lg-4 col-xl-4 col-centered ">
+					<div class="Button">Fonts</div>		   		
+				</div>							
+			</div>								   		
+				
+		
+		
+			<div id="activities">		
+				<div class=" col-sm-4 col-md-4 col-lg-4 col-xl-4 col-centered ">
+					<div class="Button">Send File</div>		   		
+				</div>							
+			</div>								   		
+				
+		
+	</div>		
+	
+	<br><br>    
+	 
+			<form name="message" action="">
+				<input name="usermsg" type="text" id="usermsg" size="63" />
+				<input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+			</form>  		
+	
+		    
+	
 </div>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
