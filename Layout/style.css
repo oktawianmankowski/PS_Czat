@@ -15,6 +15,7 @@ body {
     background:#b3b3b3;	
 	opacity: 0.8;
 	filter: alpha(opacity=80);
+	min-width: 250px;
     }
  
 h6{
@@ -39,9 +40,7 @@ h6{
     text-align:left;
     margin:0 auto;
     margin-bottom:25px;
-	margin-left: 25px;
-	margin-right: 25px;
-    padding:10px;	
+	
     background:#fff;
     height:300px;
     border:1px solid #ACD8F0;
@@ -70,5 +69,35 @@ h6{
 .msgln { margin:0 0 2px 0; }
 
 .col-centered { float: none;  margin: 0 auto;}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: grey !important
+	
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    
+	border-color: black !important
+}
+
+.upload-drop-zone {
+  height: 200px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+
 
 
